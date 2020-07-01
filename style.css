@@ -119,9 +119,16 @@ section{
     width: 50%;
     padding: 10px 10px;
     font-weight: 500;
-    margin: 0 auto;
-   
+    margin: 0 auto;    
 }
+
+/* hover for bonus mark starts from here */
+#leave-message:hover{
+    font-size: 20px;
+    box-shadow: 5px 5px 40px green;
+}
+/* hover for bonus mark ends here */
+
 .clients-part{
     background-image: url("images/footer-bg.png");
     background-repeat: no-repeat;
@@ -134,11 +141,10 @@ section{
 /* Footer starts from here */
 .last-part{
     text-align: center;
-    color: white;
+    color: dimgray;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(185, 114, 202);
     text-align: center;
     padding:10px;
 }
